@@ -22,7 +22,7 @@
       <hr />
       <Todos uid={user.uid} />
     {:else}
-      <button on:click={login}>Signin with Google</button>
+      <button class="btn" on:click={login}>Signin with Google</button>
     {/if}
   </section>
 </div>
